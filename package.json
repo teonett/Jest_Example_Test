@@ -1,0 +1,44 @@
+{
+  "name": "jestdummy",
+  "version": "1.0.0",
+  "description": "Dumb Tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "author": "Jose Teotonio",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.19.1",
+    "jest": "^24.9.0",
+    "jest-html-reporter": "^2.5.0",
+    "jest-html-reporters": "^1.1.6",
+    "jest-watch-typeahead": "^0.3.1",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "jest-junit": "^6.4.0",
+    "jest-snapshots-json-rest-api": "^1.0.0"
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "jest-snapshots-json-rest-api"
+    ],
+    "reporters": [
+      "default",
+      [
+        "jest-html-reporters",
+        {
+          "publicPath": "./report",
+          "filename": "report.html",
+          "expand": true
+        }
+      ],
+      "./node_modules/jest-junit"
+    ],
+    "watchPlugins": [
+      "jest-watch-typeahead/filename",
+      "jest-watch-typeahead/testname"
+    ]
+  }
+}

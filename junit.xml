@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="7" failures="0" time="4.24">
+  <testsuite name="Test Array Content" errors="0" failures="0" skipped="0" timestamp="2020-01-11T00:45:20" time="1.582" tests="3">
+    <testcase classname="Test Array Content Filter function it should filter by a search term (link)" name="Test Array Content Filter function it should filter by a search term (link)" time="0.008">
+    </testcase>
+    <testcase classname="Test Array Content Search array it should contain partial array content" name="Test Array Content Search array it should contain partial array content" time="0.001">
+    </testcase>
+    <testcase classname="Test Array Content Search array should contain partial array content" name="Test Array Content Search array should contain partial array content" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="Arithmetic Tests" errors="0" failures="0" skipped="0" timestamp="2020-01-11T00:45:20" time="2.003" tests="4">
+    <testcase classname="Arithmetic Tests Should calculate 2 + 3 = 5" name="Arithmetic Tests Should calculate 2 + 3 = 5" time="0.007">
+    </testcase>
+    <testcase classname="Arithmetic Tests Should calculate 3 * 4 = 12" name="Arithmetic Tests Should calculate 3 * 4 = 12" time="0">
+    </testcase>
+    <testcase classname="Arithmetic Tests Should calculate 5 - 6 = -1" name="Arithmetic Tests Should calculate 5 - 6 = -1" time="0">
+    </testcase>
+    <testcase classname="Arithmetic Tests Should calculate 8 / 4 = 2" name="Arithmetic Tests Should calculate 8 / 4 = 2" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>
