@@ -9,7 +9,7 @@
   "author": "Jose Teotonio",
   "license": "ISC",
   "devDependencies": {
-    "axios": "^0.19.1",
+    "axios": "^0.21.1",
     "jest": "^24.9.0",
     "jest-html-reporter": "^2.5.0",
     "jest-html-reporters": "^1.1.6",
